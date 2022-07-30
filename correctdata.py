@@ -6,6 +6,7 @@ def correct_text(text):
         print('не корректный ввод')
         name = input(f'{text} ')
 
+
 def correct_number():
     number = input('номер +7 код номер без пробелов -> ')
     while True:
@@ -13,4 +14,3 @@ def correct_number():
             return number
         print('не корректный ввод')
         number = input('номер +7 код номер без пробелов -> ')
-        
