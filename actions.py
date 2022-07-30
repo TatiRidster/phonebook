@@ -4,9 +4,24 @@ def edit_person():
     pass
 
 
-def del_person():
-    pass
+def del_person(data_list: list[list])->None:
+    search_string = input('Введи строку для поиска: ')
+    for i in data_list:
+        for j in i:
+            if search_string.lower() in j.lower():
+                print(i)
+    search_id = input('Введи id строки для удаления: ')
+    for k in data_list:
+        for l in k:
+            if search_id in l:
+                data_list.pop(data_list.index(k))
+                print('Элемент справочника удален')
 
+                    
+
+            
+
+    
 # first name 
 def input_firstname(): 
     first = input( "Введите имя: ")
