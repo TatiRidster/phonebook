@@ -1,5 +1,5 @@
 
-from phonebook.correctdata import correct_number, correct_text
+from correctdata import correct_number, correct_text
 def edit_person():
     pass
 
@@ -37,7 +37,7 @@ def add_person():
     user_birthday = input( "Введите день рождения: ")
     user_job = input( "Введите чем человек занимается: ")
     user_address = input( "Введите адрес: ")
-    contactDetails =("["user_surname +" "+ user_first_name + " " + user_second_name + ", " + user_phone + ", " + user_birthday + ", "+ user_job+", "+user_address "]\n") 
+    contactDetails =("[" + user_surname +" "+ user_first_name + " " + user_second_name + ", " + user_phone + ", " + user_birthday + ", "+ user_job+", "+user_address +"]\n") 
     #тут реализовать проверку записи в существующем файле по номеру телефона
     #и сказать что запись уже есть, если такого телефона нет- записываем в конец файла
     myfile = open(filename, "a") 
