@@ -15,7 +15,7 @@ def main():
               '5 - Удалить данные\n'
               '9 - Выход')
         menu_num = None
-        while True:  # Проверка ввода
+        while True:  # Проверка ввода пользователя
             try:
                 menu_num = int(input('Для работы со справочником введите цифру: '))
             except ValueError:
