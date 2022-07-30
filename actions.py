@@ -11,7 +11,7 @@ def add_person():
 
 
 def find_person(data_list: list):
-    search_string = input('Введите данные для поиска: ')
+    search_string = input('Введите строку для поиска: ')
     for i in data_list:
         for j in i:
             if search_string.lower() in j.lower():
