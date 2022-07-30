@@ -44,13 +44,7 @@ def add_person():
     myfile.write(contactDetails) 
     print( "The following Contact Details:\n " + contactDetails + "\nhas been stored successfully!") 
 
-    'Surname': user_surname,
-            'Firstname': user_first_name,
-            "Second_name": user_second_name,
-            'Phone': user_phone,
-            'Birthday': user_birthday,
-            'Profession': user_job,
-            'Address': user_address
+    
 
 
 def find_person(data_list: list):
