@@ -19,7 +19,7 @@ def main():
             try:
                 menu_num = int(input('Для работы со справочником введите цифру: '))
             except ValueError:
-                print('Неверный ввод...')
+                print('Wrong input...')
             if menu_num:
                 break
         if menu_num == 9:
