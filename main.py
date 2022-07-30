@@ -24,7 +24,7 @@ def main():
             if menu_num:
                 break
         if menu_num == 9:
-            loger.debug('Program close')
+            loger.debug('Program exit')
             exit()
         elif menu_num == 1:
             pprint(phonebook)
