@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="zbpFL1Z43aDmAp2G8Pmw" name="Page-1">
-        <mxGraphModel dx="564" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1016" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -42,13 +42,13 @@
                 <mxCell id="47" style="edgeStyle=none;html=1;entryX=0.676;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.661;exitY=0.894;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Что требуется сделать?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="6" value="Что требуется сделать? Михаил сборка полной версии" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="170" y="220" width="220" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="6">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Просмотр справочника &lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(pprint)&lt;/span&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="Просмотр справочника &lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(pprint) Михаил&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry y="320" width="120" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -68,7 +68,7 @@
                 <mxCell id="44" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="22">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="Поиск по справочнику &lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;find_person)&lt;/span&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="12" value="Поиск по справочнику &lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;find_person) Михаил&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="310" y="630" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -79,7 +79,12 @@
                         <mxPoint x="280" y="510" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" value="Изменить данные&lt;br&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;edit_person)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=0.35;exitY=-0.008;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.467;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Изменить данные&lt;br&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;edit_person)Лена, Наташа, Алексей&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="180" y="430" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -95,7 +100,10 @@
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="Добавить данные&amp;nbsp;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;add_person)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="52" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Добавить данные&amp;nbsp;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;add_person) Татьяна, Сергей&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="520" y="360" width="180" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -106,7 +114,10 @@
                         <mxPoint x="300" y="650" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="Удалить данные &lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(del_person)&lt;/span&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=0.411;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.364;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Удалить данные &lt;span style=&quot;color: rgb(121 , 94 , 38) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 18px&quot;&gt;(del_person) Даниил,Илья&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="20" y="525" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
