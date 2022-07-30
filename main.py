@@ -1,9 +1,11 @@
 from import_export import *
 from actions import *
 from pprint import pprint
+import logging
 
 
 def main():
+    loger.debug('Program start')
     phonebook = read_all_data('phonebook.csv')
     while True:
         print('1 - Просмотр справочника\n'
@@ -18,10 +20,11 @@ def main():
             try:
                 menu_num = int(input('Для работы со справочником введите цифру: '))
             except ValueError:
-                print('Wrong input...')
+                loger.warning('Wrong input!')
             if menu_num:
                 break
         if menu_num == 9:
+            loger.debug('Program close')
             exit()
         elif menu_num == 1:
             pprint(phonebook)
@@ -37,7 +40,13 @@ def main():
             data_json = create_json_data(phonebook)
             write_json(data_json)
             write_csv(phonebook)
+            loger.info('All data saved')
 
 
 if __name__ == '__main__':
+    logging.basicConfig(filename='phonebook.log',
+                        level=logging.DEBUG,
+                        datefmt='%Y.%m.%d %H:%M:%S',
+                        format='%(asctime)s - %(name)s: %(message)s')
+    loger = logging.getLogger('phonebook')
     main()
