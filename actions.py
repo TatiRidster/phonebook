@@ -1,33 +1,51 @@
 import csv
 from csv import writer
 from correctdata import correct_number, correct_text
+
+
 def edit_person():
     pass
 
 
-def del_person():
-    pass
+def del_person(data_list: list[list]) -> None:
+    search_string = input('Введи строку для поиска: ')
+    for i in data_list:
+        for j in i:
+            if search_string.lower() in j.lower():
+                print(i)
+    search_id = input('Введи id строки для удаления: ')
+    for k in data_list:
+        for l in k:
+            if search_id in l:
+                data_list.pop(data_list.index(k))
+                print(f'Пользователь с id {search_id} удалён')
 
-# first name 
-def input_firstname(): 
-    first = input( "Введите имя: ")
-    correct_text(first) 
-    remfname = first[1:] 
-    firstchar = first[0] 
-    return firstchar.upper() + remfname 
-def input_firstname2(): 
-    first = input( "Введите отчество: ")
-    correct_text(first) 
-    remfname = first[1:] 
-    firstchar = first[0] 
-    return firstchar.upper() + remfname 
+
+# first name
+def input_firstname():
+    first = input("Введите имя: ")
+    correct_text(first)
+    remfname = first[1:]
+    firstchar = first[0]
+    return firstchar.upper() + remfname
+
+
+def input_firstname2():
+    first = input("Введите отчество: ")
+    correct_text(first)
+    remfname = first[1:]
+    firstchar = first[0]
+    return firstchar.upper() + remfname
+
+
 # last name 
-def input_lastname(): 
-    last = input( "Введите фамилию: ") 
+def input_lastname():
+    last = input("Введите фамилию: ")
     correct_text(last)
-    remlname = last[1:] 
-    firstchar = last[0] 
-    return firstchar.upper() + remlname 
+    remlname = last[1:]
+    firstchar = last[0]
+    return firstchar.upper() + remlname
+
 
 def add_person():
     user_surname = input_lastname()

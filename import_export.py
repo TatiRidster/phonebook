@@ -17,7 +17,7 @@ def read_all_data(filename: str) -> list[list]:
         return data
 
 
-def write_data(database: dict) -> None:
+def write_json(database: dict) -> None:
     """
     Сохраняем словарь в JSON файл
 
@@ -26,6 +26,7 @@ def write_data(database: dict) -> None:
     """
     with open('phonebook.json', 'w', encoding='utf-8') as file:
         json.dump(database, file, indent=4, ensure_ascii=False)
+    print('JSON файл успешно сохранён')
 
 
 def create_json_data(database: list[list]) -> dict:
@@ -56,6 +57,12 @@ def create_json_data(database: list[list]) -> dict:
         }
     return data
 
+
+def write_csv(data: list[list]) -> None:
+    with open('phonebook.csv', 'w', encoding='utf-8', newline='') as file:
+        writer = csv.writer(file, delimiter=',')
+        writer.writerows(data)
+    print('CSV файл успешно сохранён')
 
 def main():
     pass
