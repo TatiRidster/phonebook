@@ -64,7 +64,7 @@ def add_person():
     if find_phone(get_ID)==False:
         user_id = str(get_ID)
         data = [user_id,user_surname,user_first_name,user_second_name,user_phone,user_birthday,user_job,user_address]
-        with open('phonebook.csv', 'a', newline='') as f_object:  
+        with open('phonebook.csv', 'a', newline='', encoding='utf-8') as f_object:
             writer_object = writer(f_object)
             writer_object.writerow(data)  
             f_object.close()  
@@ -86,7 +86,7 @@ def find_phone(user_phone):
     #firstchar = "+" 
     #searchname = firstchar + remname
     with open('phonebook.csv', 'r', encoding='utf-8', newline='') as file:
-        filecontents = csv.reader(csvfile, delimiter=',')
+        filecontents = csv.reader(file, delimiter=',')
         found = False 
         for line in filecontents: 
             if searchname in line: 
