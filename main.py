@@ -14,16 +14,16 @@ def main():
               '4 - Добавить данные\n'
               '5 - Удалить данные\n'
               '6 - Сохранить данные\n'
-              '9 - Выход')
+              '0 - Выход')
         menu_num = None
         while True:  # Проверка ввода пользователя
             try:
                 menu_num = int(input('Для работы со справочником введите цифру: '))
             except ValueError:
                 loger.warning('Wrong input!')
-            if menu_num:
+            if menu_num or menu_num == 0:
                 break
-        if menu_num == 9:
+        if menu_num == 0:
             loger.debug('Program exit')
             exit()
         elif menu_num == 1:
