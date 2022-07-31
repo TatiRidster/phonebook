@@ -64,6 +64,7 @@ def write_csv(data: list[list]) -> None:
         writer.writerows(data)
     print('CSV файл успешно сохранён')
 
+
 def main():
     pass
 
