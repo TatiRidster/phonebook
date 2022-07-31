@@ -70,13 +70,15 @@ def add_person():
             f_object.close()  
     print( "The following Contact Details:\n " + contactDetails + "\nhas been stored successfully!") 
 
+
 def perfect_phone_num(user_phone):
-    user_phone_new =""
-    user_phone_new1 =user_phone[0]+user_phone[1]+" ("+user_phone[2]+user_phone[3]+user_phone[4]+") "
-    user_phone_new2 = user_phone[5]+user_phone[6]+user_phone[7]+"-"+user_phone[8]+user_phone[9]+"-"
-    user_phone_new3 =user_phone[10]+user_phone[11]
-    user_phone_new =user_phone_new1+user_phone_new2+user_phone_new3
+    user_phone_new = ""
+    user_phone_new1 = user_phone[0] + user_phone[1] + " (" + user_phone[2] + user_phone[3] + user_phone[4] + ") "
+    user_phone_new2 = user_phone[5] + user_phone[6] + user_phone[7] + "-" + user_phone[8] + user_phone[9] + "-"
+    user_phone_new3 = user_phone[10] + user_phone[11]
+    user_phone_new = user_phone_new1 + user_phone_new2 + user_phone_new3
     return user_phone_new
+
 
 def find_phone(user_phone):
     searchname = user_phone 
@@ -95,6 +97,7 @@ def find_phone(user_phone):
         if found == False: 
             print( "This contact really new ", searchname)
     return found  
+
 
 def find_person(data_list: list):
     search_string = input('Введи строку для поиска: ')
