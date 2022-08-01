@@ -31,9 +31,9 @@ def main():
         elif menu_num == 2:
             find_person(phonebook)
         elif menu_num == 3:
-            edit_person()  # Наполнить функцию содержимым
+            edit_person(phonebook)  # Наполнить функцию содержимым
         elif menu_num == 4:
-            add_person()  # Выдаёт ошибку - исправить
+            add_person()
         elif menu_num == 5:
             del_person(phonebook)
         elif menu_num == 6:
